@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* Importing Bootstrap SCSS file. */
+@import 'bootstrap/scss/bootstrap';
+
+.link-color{
+    color: #E2B134;
+}
+
+.link-color:hover{
+    color: #FDFEFF;
+}
+
+a {
+    text-decoration: none;
+}

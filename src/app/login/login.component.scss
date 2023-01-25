@@ -1,0 +1,45 @@
+.login-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 93vh;
+    background-image: url('../../assets/pictures/background-login-register.png');
+    background-size: cover;
+    color: #FDFEFF;
+
+    div {
+        width: 25rem;
+    }
+
+    input{
+        margin-top: 0.5rem;
+        border-radius: 5px;
+        border: 0;
+        height: 2.5rem;
+        width: 100%;
+    }
+
+    input::placeholder{
+        padding-left: 1rem;
+    }
+
+    button {
+        color: #FDFEFF;
+        margin-top: 1rem;
+        background-color: #E2B134;
+        width: 100%;
+        border: 0;
+        height: 2.5rem;
+        border-radius: 5px;
+    }
+
+    p {
+        text-align: center;
+    }
+
+    a {
+        text-align: center;
+        width: 100%;
+        display: block;
+    }
+}

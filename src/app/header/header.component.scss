@@ -1,0 +1,23 @@
+header {
+    background-color: #272932;
+    color: #FDFEFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    height: 7vh;
+    border-bottom: 2px solid #FDFEFF;
+
+    .logo-max-size{
+        width: 7rem;
+    }
+
+    .menu-link{
+        color: #FDFEFF;
+        margin: 0.5rem;
+        font-weight: 500;
+    }
+    .menu-link:hover{
+        color: #E2B134;
+    }
+}
